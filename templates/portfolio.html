@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="card-deck container-fluid justify-content-center">
+  <div class="row">
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card my-3">
+        <img class="card-img-top" style="height: 20rem;" src="../static/floor.jpeg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Flooring</h4>
+          <!--<p class="card-text">Expert bathrooms done by the leading standard in the industry</p>-->
+          <a href="{% url 'flooring' %}" class="btn btn-primary">View Flooring</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card my-3">
+        <img class="card-img-top" style="height: 20rem;" src="../static/shower.jpeg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Showers</h4>
+          <!--<p class="card-text">Expert bathrooms done by the leading standard in the industry</p>-->
+          <a href="{% url 'showers' %}" class="btn btn-primary">View Showers</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card my-3">
+        <img class="card-img-top" style="height: 20rem;" src="../static/kitchen.jpeg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Kitchens</h4>
+          <!--<p class="card-text">Expert bathrooms done by the leading standard in the industry</p>-->
+          <a href="{% url 'kitchens' %}" class="btn btn-primary">View Kitchens</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card my-3">
+        <img class="card-img-top" style="height: 20rem;" src="../static/tub.jpeg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Bathtubs</h4>
+          <!--<p class="card-text">Expert bathrooms done by the leading standard in the industry</p>-->
+          <a href="{% url 'bathtubs' %}" class="btn btn-primary">View Bathtubs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card my-3">
+        <img class="card-img-top" style="height: 20rem;" src="../static/fireplace.jpeg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Fireplaces</h4>
+          <!--<p class="card-text">Expert bathrooms done by the leading standard in the industry</p>-->
+          <a href="{% url 'fireplaces' %}" class="btn btn-primary">View Fireplaces</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="card my-3">
+        <img class="card-img-top" style="height: 20rem;" src="../static/countertop.jpeg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Countertops</h4>
+          <!--<p class="card-text">Expert countertops done by the leading standard in the industry</p>-->
+          <a href="{% url 'countertops' %}" class="btn btn-primary">View Countertops</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
