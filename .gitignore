@@ -1,0 +1,7 @@
+# Ignore these files
+
+db.sqlite3
+static/*
+media/*
+static_cdn/*
+settings.py

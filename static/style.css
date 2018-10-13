@@ -12,23 +12,22 @@ html {
 
 }
 
-#jumbo {
+/* #jumbo {
   margin-left: 0;
-}
+} */
 
 #home-img {
+  min-height: 250px;
   max-width: 100%;
   max-height: 650px;
-  height: auto;
   padding-top: 30px;
 }
 
 #brand-icon {
-  margin-left: 18px;
-  padding: auto;
-  height: 100px;
-  weight: 100px;
-  bottom: 100%;
+  margin-left: 0px;
+  height: 130px;
+  position: absolute;
+  margin-top: 35px;
 }
 
 .card {
@@ -48,7 +47,8 @@ html {
 }
 
 .jumbotron {
-    padding: 2rem 1rem;
+    padding: 0;
+    padding-bottom: 1rem;
     margin-bottom: 0;
 }
 
@@ -78,4 +78,11 @@ html {
 img {
   object-fit: cover;
 
+}
+
+@media (min-width: 576px) {
+  
+}.card-deck {
+  margin-right: 0;
+  margin-left: 0;
 }
