@@ -12,10 +12,6 @@ html {
 
 }
 
-/* #jumbo {
-  margin-left: 0;
-} */
-
 #home-img {
   min-height: 250px;
   max-width: 100%;
@@ -74,11 +70,11 @@ html {
 .navbar-toggler {
   float: left;
 }
-
+/* 
 img {
   object-fit: cover;
 
-}
+} */
 
 @media (min-width: 576px) {
   
