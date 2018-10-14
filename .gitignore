@@ -4,4 +4,6 @@ db.sqlite3
 /media/static/*
 media/
 media/static
-
+static_cdn/media/
+static_cdn/media/*
+static_cdn/media/static
