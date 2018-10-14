@@ -2,3 +2,6 @@
 
 db.sqlite3
 /media/static/*
+media/
+media/static
+
